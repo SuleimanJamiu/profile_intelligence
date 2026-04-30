@@ -5,7 +5,11 @@ const app = express();
 
 require("dotenv").config();
 
+<<<<<<< HEAD
 const PORT = process.env.PORT || 8080;
+=======
+const PORT = process.env.PORT||8080;
+>>>>>>> 22f865edee4788f695f95f7b6bfd475d15b92efe
 
 app.use(express.json());
 app.use('/api', router);
