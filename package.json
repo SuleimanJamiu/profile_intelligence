@@ -18,7 +18,4 @@
     "uuid": "^14.0.0",
     "uuidv7": "^1.2.1"
   },
-  "devDependencies": {
-    "vercel": "^52.0.0"
-  }
 }
