@@ -10,6 +10,10 @@ const PORT = process.env.PORT||8080;
 app.use(express.json());
 app.use('/api', router);
 
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'Profile Intelligence API is running' });
+});
+
 if (require.main === module) {
   connectDB();
   app.listen(PORT, () => {
